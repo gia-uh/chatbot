@@ -1,0 +1,10 @@
+[project]
+name = "chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beaver-db>=1.3.0",
+    "lingo-ai>=0.3.1",
+]

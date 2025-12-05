@@ -1,2 +1,3 @@
-# chatbot
-A batteries-included, customizable starter pack for building chatbots
+# Basic Chatbot Template
+
+A batteries-included, customizable starter pack for building chatbots.
