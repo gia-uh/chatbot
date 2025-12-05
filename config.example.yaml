@@ -1,12 +1,14 @@
 telegram:
-  # Put a custom token here or in your .env
+  # Put a custom token here directly or a key in your .env
   token: ${TELEGRAM_TOKEN}
 
 llm:
+  # Change base URL and model name as necessary
   url: https://openrouter.ai/api/v1
   model: google/gemini-2.5-flash
-  # Put a custom token here or in your .env
+  # Put a custom token here directly or a key in your .env
   token: ${OPENROUTER_TOKEN}
 
 conversation:
+  # How many messages to pass as context
   history: 5
