@@ -1,111 +1,84 @@
-# Chatbot Template
+# AI Chatbot Template
 
-A batteries-included, customizable starter pack for building chatbots. This project is designed to be forked and extended, providing a solid foundation with Telegram integration, LLM support, and database management.
+A batteries-included, modular starter kit for building intelligent Telegram chatbots. This project integrates modern Python tooling to provide a robust foundation for LLM-powered applications with persistent memory and easy extensibility.
 
-## 📋 Prerequisites
+## 🚀 How to Use
 
-Before you begin, ensure you have the following installed:
-
-  * **Python 3.12+**
-  * **uv**: An extremely fast Python package manager. (Install via `pip install uv` or see [docs.astral.sh/uv](https://docs.astral.sh/uv/)).
-  * **Git**
-
-You will also need:
-
-1.  A **Telegram Bot Token** (Get this from [@BotFather](https://t.me/BotFather) on Telegram).
-2.  An **LLM Provider API Key** (e.g., OpenRouter, OpenAI, Anthropic).
-
-## 🚀 Quick Start
+Follow these steps to get your bot up and running:
 
 ### 1. Fork and Clone
+Fork this repository to your GitHub account to create your own copy, then clone it locally.
 
-Fork this repository to your own GitHub account, then clone it to your local machine:
+### 2. Install Dependencies
 
-```bash
-git clone https://github.com/YOUR_USERNAME/chatbot.git
-cd chatbot
-```
+This project uses **uv** for fast package management.
 
-### 2. Configure the Environment
-
-The project uses a YAML configuration file. You must create a local copy of the example configuration:
-
-```bash
-cp config.example.yaml config.yaml
-```
-
-**Important:** `config.yaml` is ignored by git to prevent accidental commitment of secrets.
-
-### 3. Update Configuration
-
-Open `config.yaml` in your editor. You have two options for setting up your credentials:
-
-**Option A: Direct Entry (Simpler)**
-Replace the `${...}` placeholders directly with your actual keys.
-
-```yaml
-telegram:
-  token: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
-
-llm:
-  url: https://openrouter.ai/api/v1
-  model: google/gemini-2.5-flash
-  token: "sk-or-v1-..."
-```
-
-**Option B: Environment Variables (Recommended)**
-Create a `.env` file in the root directory and add your secrets there. The configuration loader automatically substitutes values formatted as `${VAR_NAME}`.
-
-1.  Create `.env`:
+1.  **Install uv** (if you haven't already):
     ```bash
-    TELEGRAM_TOKEN=your_telegram_token_here
-    OPENROUTER_TOKEN=your_llm_token_here
+    pip install uv
     ```
-2.  Keep `config.yaml` as is:
-    ```yaml
-    telegram:
-      token: ${TELEGRAM_TOKEN}
-    ...
+2.  **Sync dependencies**:
+    ```bash
+    uv sync
     ```
 
-### 4. Install Dependencies
+### 3. Configuration
 
-Use `uv` to sync the project dependencies (this creates the virtual environment automatically):
+The project uses a secure configuration system that separates secrets from logic.
+
+1.  **Create the config file**:
+    ```bash
+    cp config.example.yaml config.yaml
+    ```
+2.  **Set up environment variables**:
+    Create a `.env` file in the root directory to store your API keys (this file is ignored by git).
+
+    ```env
+    TELEGRAM_TOKEN=your_telegram_bot_token
+    OPENROUTER_TOKEN=your_llm_provider_key
+    ```
+3.  **Review `config.yaml`**:
+    Ensure the `token` and `api_key` fields reference your environment variables (e.g., `${TELEGRAM_TOKEN}`). You can also adjust the LLM model and system prompt here.
+
+### 4. Run the Bot
+
+You can start the application using the included Makefile or directly via uv:
 
 ```bash
-uv sync
-```
-
-### 5. Run the Bot
-
-You can start the bot using the provided Makefile or directly via `uv`:
-
-**Using Make:**
-
-```bash
+# Option A: Using Make
 make run
+
+# Option B: Direct
+uv run src/app.py
 ```
 
-**Using UV directly:**
+### 5. Customization
 
-```bash
-uv run src/bot.py
-```
+To add custom logic or new capabilities to your bot:
 
-## 🛠 Project Structure
+  * **Edit `src/bot.py`**: This is where the AI logic lives. You can define new "skills" using the `@chatbot.skill` decorator provided by `lingo-ai`.
+  * **Edit `src/config.py`**: Update the Pydantic models if you need to add new configuration sections.
 
-  * **`src/bot.py`**: The entry point. Handles Telegram updates and commands.
-  * **`src/config.py`**: Handles loading YAML configuration and Pydantic validation.
-  * **`config.yaml`**: Your local configuration (ignored by Git).
-  * **`pyproject.toml`**: Defines dependencies (`beaver-db`, `lingo-ai`, `purely`, `python-telegram-bot`, etc.).
+## 🏗 Architecture Overview
 
-## 🧩 Extending the Bot
+This project is built on a modular stack designed for maintainability and scale:
 
-To add your own logic:
+  * **🤖 Python Telegram Bot**:
+    Handles the networking layer. It receives updates from Telegram and manages the polling loop in `src/app.py`.
 
-1.  Open `src/bot.py`.
-2.  Define new `async` handler functions.
-3.  Register them using `application.add_handler(...)` inside the `start_bot` function.
+  * **🧠 Lingo AI**:
+    Found in `src/bot.py`, this library manages the Agentic logic. It handles the System Prompt, wraps the LLM connection, and defines "Skills" (functions the bot can execute).
+
+  * **🗄️ Beaver DB**:
+    A lightweight, local database used to store conversation history.
+
+      * When a user chats, `src/app.py` retrieves their history from BeaverDB using a unique key (`conversation:{user_id}`).
+      * This allows the bot to remember context across different sessions.
+
+  * **⚙️ Purely & Pydantic**:
+
+      * **Purely** provides utility functions for validation (like `ensure`).
+      * **Pydantic** (`src/config.py`) ensures strictly typed configuration, preventing runtime errors due to missing or malformed settings.
 
 ## 📄 License
 
