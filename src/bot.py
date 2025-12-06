@@ -34,6 +34,8 @@ def build(username: str, conversation: Conversation) -> Lingo:
         # Add it to the context (otherwise the bot won't remember its own response)
         ctx.append(msg)
 
+        print(ctx.messages)
+
     # ... Add your extra skills and tools here
     # ...
     # ...

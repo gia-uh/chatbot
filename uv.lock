@@ -409,11 +409,11 @@ wheels = [
 
 [[package]]
 name = "purely"
-version = "0.1.2"
+version = "0.3.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/9c/7e/d37d506c97eb7c98dfdf93c453b899d618f558c06d581c50fc7cb4fa0363/purely-0.1.2.tar.gz", hash = "sha256:82e2739c97d9c042fe047143555a4b393d3a01ccfdd18c554a9e6db1c744920c", size = 18320 }
+sdist = { url = "https://files.pythonhosted.org/packages/f8/a9/150963aa995530ed45000106035412d5dbfbfcca4cff1d09dadf99b74f83/purely-0.3.0.tar.gz", hash = "sha256:e689f908773a6d123e9dbfd92b922ca720574cb73578c256e6cf82a40925312f", size = 24591 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1d/17/d79ea215f675b8ed635ccfe4014753fcdcae1183ab4c9efc66e1158cca58/purely-0.1.2-py3-none-any.whl", hash = "sha256:2b176a2093ccbdcb186277d45f2a38de2faf547bdd249b339df69efce428f212", size = 4257 },
+    { url = "https://files.pythonhosted.org/packages/0a/96/dbab1b539045eeec4ba3f52e0e225648d2e9c810b4bdae5b938c22dd64e3/purely-0.3.0-py3-none-any.whl", hash = "sha256:5acff7676c285d5bc3595b25c91eed086b38fac07604f8dbe9e866ccdaae099b", size = 7780 },
 ]
 
 [[package]]
