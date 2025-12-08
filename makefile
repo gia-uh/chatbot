@@ -1,3 +1,6 @@
-.PHONY: run
+.PHONY: run index
+
 run:
-	uv run src/app.py
+	uv run bot
+
+index: uv run index
