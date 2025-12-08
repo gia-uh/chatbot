@@ -12,10 +12,11 @@ from telegram.ext import (
 )
 
 from purely import ensure
-from config import load
 from beaver import BeaverDB
-from bot import build
 from lingo.core import Conversation
+
+from .config import load
+from .bot import build
 
 config = load()
 db = BeaverDB(config.db)

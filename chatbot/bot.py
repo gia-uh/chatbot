@@ -1,6 +1,6 @@
 from lingo import Lingo, LLM, Context, Engine
 from lingo.core import Conversation
-from config import load
+from .config import load
 
 
 def build(username: str, conversation: Conversation) -> Lingo:
