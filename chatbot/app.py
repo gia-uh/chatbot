@@ -71,7 +71,6 @@ class ConversationHandler(Conversation):
 
 # --- CORE HANDLERS (The "Upstream" Logic) ---
 
-
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
     Standard welcome message.
@@ -96,7 +95,6 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chatbot = build(username, conversation)
 
     msg = ensure(update.effective_message).text
-
     if msg:
         reply = await chatbot.chat(msg)
         await ensure(update.effective_message).reply_text(reply.content)
