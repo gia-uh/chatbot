@@ -8,58 +8,58 @@ from .utils import embed, get_db
 db = get_db()
 
 
-# def yaml_handler(file_path: Path, max_child_tokens=512, max_parent_tokens=2048):    
-#     """Load and chunk a YAML file using hierarchical chunking.
-#     Args:
-#         file_path (Path): The path to the YAML file.
-#     Returns:
-#         List[Dict]: A list of chunks with their paths and content.
-#     """
-#     yaml_dict = yaml.safe_load(file_path.read_bytes())
+def yaml_handler(file_path: Path, max_child_tokens=512, max_parent_tokens=2048):    
+    """Load and chunk a YAML file using hierarchical chunking.
+    Args:
+        file_path (Path): The path to the YAML file.
+    Returns:
+        List[Dict]: A list of chunks with their paths and content.
+    """
+    yaml_dict = yaml.safe_load(file_path.read_bytes())
     
-#     chunks_parent = []
-#     chunks_child = []
+    chunks_parent = []
+    chunks_child = []
     
-#     for top_key, top_value in yaml_dict.items():
-#         parent_context = {
-#             'key': top_key,
-#             'depth': 0,
-#             'full_path': [top_key]
-#         }
+    for top_key, top_value in yaml_dict.items():
+        parent_context = {
+            'key': top_key,
+            'depth': 0,
+            'full_path': [top_key]
+        }
         
-#         # Si es un valor simple, crear chunk directamente
-#         if not isinstance(top_value, dict):
-#             chunk = {
-#                 'content': f"{top_key}: {top_value}",
-#                 'metadata': parent_context,
-#                 'type': 'leaf'
-#             }
-#             chunks_child.append(chunk)
-#         else:
-#             # Procesar estructura anidada
-#             parent_text = serialize_to_yaml(top_key, top_value)
-#             parent_chunk = {
-#                 'content': parent_text,
-#                 'metadata': parent_context,
-#                 'type': 'parent',
-#                 'children': []
-#             }
+        # Si es un valor simple, crear chunk directamente
+        if not isinstance(top_value, dict):
+            chunk = {
+                'content': f"{top_key}: {top_value}",
+                'metadata': parent_context,
+                'type': 'leaf'
+            }
+            chunks_child.append(chunk)
+        else:
+            # Procesar estructura anidada
+            parent_text = serialize_to_yaml(top_key, top_value)
+            parent_chunk = {
+                'content': parent_text,
+                'metadata': parent_context,
+                'type': 'parent',
+                'children': []
+            }
             
-#             # Generar chunks hijo respetando semántica YAML
-#             for child_key, child_value in recursive_traverse(top_value):
-#                 child_chunk = {
-#                     'content': format_child_content(child_key, child_value),
-#                     'metadata': {
-#                         **parent_context,
-#                         'parent_id': id(parent_chunk),
-#                         'full_path': parent_context['full_path'] + [child_key]
-#                     },
-#                     'type': 'child'
-#                 }
-#                 chunks_child.append(child_chunk)
-#                 parent_chunk['children'].append(id(child_chunk))
+            # Generar chunks hijo respetando semántica YAML
+            for child_key, child_value in recursive_traverse(top_value):
+                child_chunk = {
+                    'content': format_child_content(child_key, child_value),
+                    'metadata': {
+                        **parent_context,
+                        'parent_id': id(parent_chunk),
+                        'full_path': parent_context['full_path'] + [child_key]
+                    },
+                    'type': 'child'
+                }
+                chunks_child.append(child_chunk)
+                parent_chunk['children'].append(id(child_chunk))
     
-#     return chunks_parent, chunks_child
+    return chunks_parent, chunks_child
  
  
 def clean_text(text: str) -> str:

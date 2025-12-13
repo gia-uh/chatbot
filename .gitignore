@@ -209,6 +209,4 @@ __marimo__/
 config.yaml
 *.db*
 data/*
-!data/pdf/*
-!data/yaml/*
 !data/.gitkeep
