@@ -1,0 +1,125 @@
+tarjetas_clasicas_puntos_venta:
+  - numero: 1
+    entidad: "Sucursal Hab. Este"
+    punto_venta: "TP-El Compas"
+    direccion: "Ave. 101 No. 1625 e/ 16 y 18. Cotorro."
+  - numero: 2
+    entidad: "Sucursal Hab. Oeste"
+    punto_venta: "CC BOYEROS Y CAMAGUEY"
+    direccion: "Avenida Boyeros y Camaguey"
+  - numero: 3
+    entidad: "Sucursal Hab. Oeste"
+    punto_venta: "Galeria de Tiendas Marealta Hotel Gran Muthu"
+    direccion: "Calle 70 y Avenida 3ra Playa"
+  - numero: 4
+    entidad: "Sucursal Hab. Oeste"
+    punto_venta: "CC LA PUNTILLA"
+    direccion: "Calle 1ra entre A y B. Miramar"
+  - numero: 5
+    entidad: "Sucursal Cuatro Caminos"
+    punto_venta: "WU Cuatro Caminos"
+    direccion: "Cristina No. 70 entre Arroyo y Matadero. Habana Vieja"
+  - numero: 6
+    entidad: "Sucursal Carlos III"
+    punto_venta: "Oficina WU"
+    direccion: "Calle Salvador Ayende entre Retiro y Arbol Seco"
+  - numero: 7
+    entidad: "Sucursal Gastronomía"
+    punto_venta: null
+    direccion: "No aperturan ninguna Unidad para la venta de tarjetas clásicas."
+  - numero: 8
+    entidad: "Sucursal Pinar del Río"
+    punto_venta: "WU Tienda El Fuego"
+    direccion: "Martí No. 275 e/ Gerardo Medina y Osmani Arenado, municipio Pinar del Río"
+  - numero: 9
+    entidad: "Sucursal Artemisa"
+    punto_venta: "WU Artemisa"
+    direccion: "Calle 52 entre 25 y 29"
+  - numero: 10
+    entidad: "Sucursal Mayabeque"
+    punto_venta: "PV WU La Época"
+    direccion: "Ave 47 entre 64 y 68, 6416, San José, Carretera Central"
+  - numero: 11
+    entidad: "Sucursal Matanzas"
+    punto_venta: "TP La Caridad"
+    direccion: "Calzada General Betancourt. Peñas Altas. Playa La Caridad"
+  - numero: 12
+    entidad: "Sucursal Matanzas"
+    punto_venta: "Casa del Pintor"
+    direccion: "Calle Manzano esquina Magdalena"
+  - numero: 13
+    entidad: "Sucursal Matanzas"
+    punto_venta: "La Península"
+    direccion: "Calle 63 entre 1ra y 4"
+  - numero: 14
+    entidad: "Sucursal Villa Clara"
+    punto_venta: "TP Las Villas"
+    direccion: "Colón S/N entre Caridad y Carretera Central, Santa Clara"
+  - numero: 15
+    entidad: "Sucursal Cienfuegos"
+    punto_venta: "Oficina WU Aguada"
+    direccion: "Martí #167, Aguada"
+  - numero: 16
+    entidad: "Sucursal Cienfuegos"
+    punto_venta: "Oficina WU Mimbre"
+    direccion: "Ave 60 esquina 35"
+  - numero: 17
+    entidad: "Sucursal S. Spíritus"
+    punto_venta: "Kilo 12"
+    direccion: "Céspedes, e/ Magon y Gerónimo Ramírez, Sancti Spíritus"
+  - numero: 18
+    entidad: "Sucursal S. Spíritus"
+    punto_venta: "Típica Trinidad"
+    direccion: "Pedro Zerquera, e/ Concordia y Manuel Fajardo, Trinidad"
+  - numero: 19
+    entidad: "Sucursal Ciego de Ávila"
+    punto_venta: "WU. TP Encanto Moron"
+    direccion: "Calle Martí No. 299, esq. José Varona, Morón"
+  - numero: 20
+    entidad: "Sucursal Ciego de Ávila"
+    punto_venta: "WU. TP Boulevard"
+    direccion: "Calle Maceo e/ Independencia y Libertad, Ciego de Ávila"
+  - numero: 21
+    entidad: "Sucursal Camagüey"
+    punto_venta: "Oficina WU La Plaza"
+    direccion: "Carretera Central esquina Cielo"
+  - numero: 22
+    entidad: "Sucursal Camagüey"
+    punto_venta: "Oficina WU La Mercy"
+    direccion: "Camino de la Matanza S/N esq. Perucho Figueredo, Rpto. La Vigia"
+  - numero: 23
+    entidad: "Sucursal Las Tunas"
+    punto_venta: "WU La Nueva"
+    direccion: "Vicente García No. 28 e/ Julián Santana y Francisco Vega, Las Tunas"
+  - numero: 24
+    entidad: "Sucursal Holguín"
+    punto_venta: "WU Encanto"
+    direccion: "Calle Libertad entre Luz Caballero y Martí"
+  - numero: 25
+    entidad: "Sucursal Holguín"
+    punto_venta: "WU Molienda"
+    direccion: "Carretera Central, Reparto Hechavarría"
+  - numero: 26
+    entidad: "Sucursal Granma"
+    punto_venta: "TP La Violeta"
+    direccion: "Calle General García No. 151 esquina Figueredo, Rpto. San Juan, Bayamo, Granma"
+  - numero: 27
+    entidad: "Sucursal Granma"
+    punto_venta: "TP Novedades"
+    direccion: "Ave. Frank País s/n e/ 2da y Ave. Felino Figueredo, Rpto. Jesús Menéndez, Bayamo, Granma"
+  - numero: 28
+    entidad: "Sucursal Santiago de Cuba"
+    punto_venta: "Westers 4ta y Garzón"
+    direccion: "Avenida Garzón esq. Calle 4ta, Santiago de Cuba"
+  - numero: 29
+    entidad: "Sucursal Guantánamo"
+    punto_venta: "SC-La Perla"
+    direccion: "Los Maceos / Narciso López y Jesús del Sol"
+  - numero: 30
+    entidad: "Sucursal Guantánamo"
+    punto_venta: "TP-Las Fragancias"
+    direccion: "Los Maceos No. 802 / Prado y Aguilera"
+  - numero: 31
+    entidad: "Sucursal Guantánamo"
+    punto_venta: "TP-La Primada"
+    direccion: "Martí No. 163 / Céspedes y Ciro Frías"

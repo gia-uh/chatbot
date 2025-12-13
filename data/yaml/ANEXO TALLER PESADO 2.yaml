@@ -1,0 +1,187 @@
+contrato_compraventa:
+  agencia: "1ra y 20"
+
+proveedor:
+  nombre: "QUANZHOU JIANDA IMPORT EXPORT TRADE Co. LTD"
+
+terminos_de_garantia:
+  - categoria: "Autos y Paneles de combustión"
+    descripcion: ""
+  - categoria: "Motor, transmisión y Conjunto de eje trasero"
+    descripcion: "2 años o 50.000 km (según lo que ocurra primero)"
+  - categoria: "Sistema de tracción: carrocería del vehículo (sin pintura), conjunto de carcasa del eje trasero"
+    descripcion: "2 años o 40.000 km (según lo que ocurra primero)"
+  - categoria: "Otros: Conjunto de tanque de combustible y accesorios, palanca de freno"
+    descripcion: ""
+  - categoria: "Sistema de frenos: disco de freno, tambor de freno, pastilla de freno"
+    descripcion: "15 meses o 30.000 km (según lo que ocurra primero)"
+  - categoria: "Sistema de transmisión: eje de transmisión"
+    descripcion: "15 meses o 30.000 km (según lo que ocurra primero)"
+  - categoria: "Otros: Volante (excluyendo el botón de la bocina), radiador, transmisión, cinturón de seguridad, neumático, arnés de cableado, pilar de la suspensión delantera"
+    descripcion: "15 meses o 30.000 km (según lo que ocurra primero)"
+  - categoria: "Componentes eléctricos"
+    descripcion: "1 Año o 20.000 km (según lo que ocurra primero)"
+    componentes: [
+      "ECU",
+      "conjunto de ECU de radar de marcha atrás",
+      "sensor de radar de marcha atrás",
+      "pantalla de radar de marcha atrás",
+      "velocidad de ralentí del motor",
+      "sensor de presión de admisión",
+      "sensor de temperatura de combustible de admisión",
+      "sensor de posición del acelerador",
+      "sensor de temperatura del refrigerante",
+      "sensor de detonación",
+      "sensor de oxígeno",
+      "conjunto del cuerpo del acelerador",
+      "conjunto del riel de combustible (incluido el inyector del regulador de presión de combustible)",
+      "sensor de posición del cigüeñal",
+      "depósito de carbón de la válvula de control",
+      "sensor de presión de aceite",
+      "sensor de temperatura del agua",
+      "línea de alta presión",
+      "bobina de encendido"
+    ]
+  - categoria: "Sistema de dirección: columna de dirección, varillaje de dirección (incluida rótula), dispositivo de dirección"
+    descripcion: "1 Año o 20.000 km (según lo que ocurra primero)"
+  - categoria: "Sistema de frenado: cilindro maestro, cilindro de freno, manguera de freno, válvula proporcional"
+    descripcion: "1 Año o 20.000 km (según lo que ocurra primero)"
+  - categoria: "Otros (lista larga de componentes eléctricos, mecánicos y de chasis)"
+    descripcion: "1 Año o 20.000 km (según lo que ocurra primero)"
+    componentes: [
+      "conjunto de bomba de combustible (incluido el sensor de medición de aceite)",
+      "módulo ABS",
+      "conjunto MP5",
+      "EPS",
+      "conjunto de viga de soporte del tablero",
+      "ventilador eléctrico",
+      "convertidor catalítico de tres vías",
+      "correa del ventilador",
+      "conjunto del brazo oscilante del eje delantero",
+      "conjunto del asiento",
+      "amortiguador delantero (trasero)",
+      "cojinete (parte del chasis)",
+      "aceite de sellado (chasis)",
+      "ballesta",
+      "controlador de cierre centralizado y control remoto",
+      "dispositivo de bloqueo de la puerta",
+      "cable de acero de funcionamiento completo",
+      "medidor de combinación",
+      "interruptor de combinación",
+      "regulador de voltaje",
+      "relé intermitente",
+      "grabadora",
+      "limpiaparabrisas del motor",
+      "motor de calefacción del ventilador",
+      "motor del lavaparabrisas",
+      "bocina eléctrica",
+      "cerradura de encendido",
+      "barra de soporte de dirección del portón trasero",
+      "elevalunas",
+      "dispositivo de funcionamiento del calentador",
+      "silenciador",
+      "elevalunas eléctrico",
+      "buje de la barra de presión de la suspensión delantera",
+      "conjunto de CD",
+      "pastillas de freno",
+      "conjunto de cubo de la rueda delantera",
+      "marco (camión de taller móvil)",
+      "cerradura de la puerta (camión de taller móvil)",
+      "batería"
+    ]
+  - categoria: "Sistema de aire acondicionado y otros consumibles"
+    descripcion: "1 Año"
+    componentes: [
+      "conjunto de compresor y embrague electromagnético",
+      "conjunto de condensador",
+      "conjunto de ventilador de condensador",
+      "conjunto de evaporador frontal",
+      "instalación delante de la válvula de expansión del evaporador",
+      "termistor",
+      "conjunto de evaporador de techo",
+      "válvula de expansión del evaporador de techo",
+      "receptor de secadora",
+      "tubería de conexión principal",
+      "respectivo conjunto de tubería de entrada/salida",
+      "conjunto de tubería de entrada de agua del evaporador de techo",
+      "interruptor de aire acondicionado",
+      "fuga de refrigerante (si se realiza una inspección de fuga, el distribuidor será responsable de los demás)",
+      "bujías",
+      "neumáticos",
+      "pastillas de embrague",
+      "escobillas de freno delantero",
+      "escobillas de freno trasero",
+      "filtros de aceite",
+      "filtros de combustible",
+      "limpiaparabrisas",
+      "piezas de goma"
+    ]
+  - categoria: "Otros consumibles (bujías, neumáticos, pastillas de embrague, etc.)"
+    descripcion: "3 meses o 5.000 km (según lo que ocurra primero)"
+  - categoria: "Accesorios para camión"
+    descripcion: "3 meses o 5.000 km (según lo que ocurra primero)"
+    componentes: [
+      "placa de sellado inferior",
+      "barra de soporte de puerta lateral/puerta trasera",
+      "protector contra lluvia",
+      "tira de sellado de canaleta",
+      "bisagra de puerta",
+      "sistema de sonido",
+      "interruptor de encendido",
+      "toma de corriente",
+      "cable de alimentación",
+      "cable de alimentación y sensor de sonido"
+    ]
+  - categoria: "Bombillas, pilas para mandos a distancia, fusibles, filtros de aire, filtros de aire acondicionado, relés"
+    descripcion: "3 meses o 5.000 km (según lo que ocurra primero)"
+  - categoria: "Piezas de goma (excepto retenes de aceite), encendedores, conductos, manijas, repuestos, etc."
+    descripcion: "1 mes o 2.500 km (según lo que ocurra primero)"
+    componentes: [
+      "piezas de goma (excepto retenes de aceite)",
+      "encendedores",
+      "todos los conductos de aceite",
+      "conductos de agua",
+      "todas las manijas de las puertas",
+      "repuestos",
+      "conjunto de ganchos para neumáticos",
+      "todos los sellos de las puertas y abrazaderas de vidrio",
+      "protectores de puertas",
+      "manijas de seguridad",
+      "vástagos de válvulas",
+      "parachoques delantero y trasero",
+      "tapas de llenado de agua y aceite",
+      "antenas",
+      "parasoles",
+      "filtros de aire",
+      "espejos retrovisores",
+      "espejos interiores"
+    ]
+  - categoria: "Piezas no especificadas"
+    descripcion: "6 meses o 10.000 km (según lo que ocurra primero)"
+
+talleres_de_atencion:
+  habana:
+    - tipo_vehiculo: "Autos y Paneles de combustión"
+      nombre: "Taller Pesado No.2."
+      direccion: "Calle 9na nº 28417 esquina a 296. Carretera Cangrejeras. Reparto Santa Fe. Municipio Playa. Provincia La Habana."
+  provincias:
+    - nombre: "CTT Guantánamo"
+      direccion: "KM # 1 ½ carretera a Guantánamo."
+    - nombre: "CTT Santiago de Cuba"
+      direccion: "KM # 8 Carretera Central, Santiago de Cuba."
+    - nombre: "CTT Granma"
+      direccion: "KM. # 2 ½ de la Carretera Central Vía Santiago de Cuba, Bayamo, Granma."
+    - nombre: "CTT Holguín"
+      direccion: "Km # 5, Carretera a Mayarí, San Rafael Holguín."
+    - nombre: "CTT Camagüey"
+      direccion: "Argentina # 20 entre Honduras y Guatemala Reparto El Retiro."
+    - nombre: "CTT Ciego de Ávila"
+      direccion: "Carretera Morón Km 3.14, Ciego de Ávila."
+    - nombre: "CTT Villa Clara"
+      direccion: "Calle 3ra Final, Reparto Caracatey, Santa Clara, Villa Clara."
+    - nombre: "CTT Cienfuegos"
+      direccion: "Calle C entre 2da y 3ra, Barrio O’bourke, Cienfuegos."
+    - nombre: "CTT Matanzas"
+      direccion: "Finca Siguapa, Santa Marta, Cárdenas, Matanzas"
+    - nombre: "CTT Pinar del Río"
+      direccion: "Avenida Borrego Zona Industrial, Carretera Central, Pinar del Río."

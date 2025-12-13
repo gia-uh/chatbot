@@ -1,0 +1,36 @@
+contrato_compraventa:
+  agencia: "1ra y 20"
+
+proveedor:
+  nombre: "Lido"
+
+terminos_de_garantia:
+  - categoria: "Autos de combustión"
+    descripcion: "1 año y/o 50 000 Kms o lo primero que ocurra, contra desperfectos de fábrica o vicios ocultos"
+
+talleres_de_atencion:
+  habana:
+    - tipo_vehiculo: "Autos"
+      nombre: "Taller Ligero No.3."
+      direccion: "Calle 252, No. 3106 entre 31 y 35, Reparto San Agustín. Municipio La Lisa. Provincia La Habana."
+  provincias:
+    - nombre: "CTT Guantánamo"
+      direccion: "KM # 1 ½ carretera a Guantánamo."
+    - nombre: "CTT Santiago de Cuba"
+      direccion: "KM # 8 Carretera Central, Santiago de Cuba."
+    - nombre: "CTT Granma"
+      direccion: "KM. # 2 ½ de la Carretera Central Vía Santiago de Cuba, Bayamo, Granma."
+    - nombre: "CTT Holguín"
+      direccion: "Km # 5, Carretera a Mayarí, San Rafael Holguín."
+    - nombre: "CTT Camagüey"
+      direccion: "Argentina # 20 entre Honduras y Guatemala Reparto El Retiro."
+    - nombre: "CTT Ciego de Ávila"
+      direccion: "Carretera Morón Km 3.14, Ciego de Ávila."
+    - nombre: "CTT Villa Clara"
+      direccion: "Calle 3ra Final, Reparto Caracatey, Santa Clara, Villa Clara."
+    - nombre: "CTT Cienfuegos"
+      direccion: "Calle C entre 2da y 3ra, Barrio O’bourke, Cienfuegos."
+    - nombre: "CTT Matanzas"
+      direccion: "Finca Siguapa, Santa Marta, Cárdenas, Matanzas"
+    - nombre: "CTT Pinar del Río"
+      direccion: "Avenida Borrego Zona Industrial, Carretera Central, Pinar del Río."

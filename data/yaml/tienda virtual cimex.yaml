@@ -1,0 +1,35 @@
+tienda_virtual_cimex:
+  url: "www.envioscuba.com"
+  puntos_de_entrega:
+    pinar_del_rio:
+      - "Guamá"
+    isla_de_la_juventud:
+      - "Pinero"
+    artemisa:
+      - "Oportunidad"
+    habana:
+      - "La Puntilla"
+      - "Puerto envío"
+      - "Tienda Boyeros"
+    mayabeque:
+      - "Época"
+    matanzas:
+      - "Playa Azul"  # Ubicada en Cárdenas, según contexto
+    cienfuegos:
+      - "Casa Mimbre"
+    villa_clara:
+      - "Riviera"
+    ciego_de_avila:
+      - "Trópico"
+    camaguey:
+      - "Zona +"
+    las_tunas:
+      - "Época"
+    holguin:
+      - "El Encanto"
+    granma:
+      - "Novedades"
+    santiago_de_cuba:
+      - "La Violeta"
+    guantanamo:
+      - "El Orbe"

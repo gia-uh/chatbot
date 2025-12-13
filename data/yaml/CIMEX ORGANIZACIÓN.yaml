@@ -1,0 +1,166 @@
+corporacion_cimex:
+  nombre_oficial: "Corporación CIMEX, S.A., Sociedad Anónima"
+  domicilio: "Edificio Sierra Maestra, Avenida Primera, entre 0 y 2, Miramar, Municipio Playa, Provincia La Habana"
+  particularidades: "Sociedad mercantil 100% cubana que aplica el Perfeccionamiento Empresarial"
+
+  mision: "Comercializar bienes y servicios que proporcionen satisfacción a los clientes y garantizar crecientes aportes a la economía del país."
+
+  vision: "Lograr la preferencia de los clientes por nuestra contribución para mejorar su calidad de vida."
+
+  politica_gestion_calidad: >
+    Mantener un Sistema de Gestión de la Calidad que contribuya a la competitividad, a elevar la calidad en la comercialización de bienes y servicios,
+    al aumento de la satisfacción de los clientes y a la mejora continua, sobre la base del cumplimiento de los requisitos legales y reglamentarios de las partes interesadas pertinentes,
+    la gestión de los riesgos, la comunicación y la promoción del compromiso, la honradez, la disciplina, la responsabilidad y la profesionalidad de los trabajadores.
+
+  objeto_social:
+    actividades_principales:
+      - "Brindar servicios gastronómicos. (Todas las Sucursales)"
+      - "Comercializar productos alimenticios y no alimenticios, tanto importados como adquiridos en el mercado nacional. (Todas las Sucursales)"
+
+    actividades_secundarias:
+      - "Exportar bienes y servicios, según nomenclatura aprobada. (Cimex – Mariel S.A)"
+      - "Efectuar el cobro de las entradas a las instalaciones. (Gastronomía y Recreación)"
+      - "Integrales de fotografía y videos, de impresión, distribución y suscripción de señal de televisión. (División Tecnológica con Telecable Internacional)"
+      - "De reparación y mantenimiento de vehículos automotores. (División Transporte Automotor)"
+      - "Servicio público de alojamiento, hospedaje de sitios web y aplicaciones, gestión y colocación de servidores físicos, gestión de servidores virtuales privados, provisión de aplicación que incluye los servidores de soluciones integrales, gestión de proyectos tecnológicos, instalación, montaje, reparación y mantenimiento de equipos y redes informáticas. (ASTER S.A.)"
+      - "De promoción y publicidad. (Publicitaria Imágenes)"
+      - "De almacenamiento y transportación. (Todas las Sucursales, la División de Transporte Automotor, Zelcom S.A.)"
+      - "Arrendamiento y venta de equipos receptores y TV hoteleros con o sin sistema de TV interactiva y de los equipos asociados a este servicio, según los canales que aprueba el ICRT. (División Tecnológica con Telecable Internacional)"
+      - "Garantía y postventa a las mercancías, equipos y bienes que se comercializan. (División Tecnológica)"
+      - "Transportación y entrega a domicilio de mensajería, mercancías y encomiendas, en correspondencia con la autorización del MINCOM. (Mipyme Cubapack)"
+      - "Envío de equipaje no acompañado. (Mipyme Cubapack)"
+      - "Agencia transitaria Multimodal nacional. (Mipyme Cubapack)"
+      - "Promoción de moda cubana e internacional, desfiles de moda, de servicios profesionales de modelos, incluyendo la preparación técnico profesional y otras actividades afines a la moda en Cuba. (Gastronomía y Recreación con la Maison en La Habana y la de la Sucursal Santiago de Cuba)"
+      - "Subarrendamiento de locales e inmuebles. (Todas las Sucursales)"
+      - "Mantenimiento, ensamblaje y reparación de relojes y joyas. (División Coral Negro)"
+      - "Instalación y mantenimiento a los equipos y sistemas informáticos de tarjetas de crédito (Pos); pizarras y sistemas de intercomunicadores. (Fincimex S.A.)"
+      - "Reparación, mantenimiento y cableado, servicios constructivos a bienes inmuebles y muebles en las estructuras de la Corporación Cimex, S.A. (Ecuse S.A.)"
+      - "Suministro de agua potable. (División Transporte Automotor)"
+      - "Especializados de proyecto y/o instalación, montaje, reparación y mantenimiento de aditamentos y accesorios de cerrajería integral. (División Tecnológica)"
+      - "Comedor, cafetería, recreativos, transportación y de gastronomía a los trabajadores. (División Servicio Sierra Maestra, Sucursales)"
+      - "Salón de belleza y gimnasio. (Maison Habana y Santiago de Cuba)"
+      - "Tasación de joyas y metales preciosos. (División Coral Negro)"
+      - "Instalación, atención de avería y mantenimiento a Grupos Electrógenos y compresores de aire, así como a recursos, partes y piezas asociados a éstos. (ECUSE S.A y las Sucursales)"
+      - "Clínicos y de medicina veterinaria. (sucursal Habana Oeste)"
+      - "Controles Integrales de plagas, vectores e higiene en general, acorde a las normativas del MINSAP. (División Servicios Sierra Maestra)"
+      - "De destino final a periféricos y medios de computación y comunicaciones. (Aster S.A.)"
+      - "En los Servicentros se prestarán servicios de ponchera y aire, fregado y engrase, la sustitución de piezas y accesorios ligeros y la revisión y ajuste del funcionamiento de mecanismos. (Todas Las Sucursales excepto Gastronomía y Recreación, Plaza Carlos III y Cuatro Caminos)"
+      - "Ensamblaje de equipos informáticos. (División Tecnológica)"
+      - "De difusión por cable de señales de audio y televisión. (División Tecnológica)"
+      - "De distribución, transmisión de datos y de acceso a Internet. (ASTER S.A.)"
+      - "De Comercio Electrónico. (División Comercio Electrónico)"
+
+    producir:
+      - "Joyas. (División Coral Negro)"
+      - "Productos alimenticios, según nomenclatura aprobada para el MINCIN. (Centros de Elaboración de todas las Sucursales)"
+      - "Prendas de vestir y otras confecciones. (División Contex)"
+      - "Producir y comercializar productos alimenticios elaborados y semielaborados derivados de las producciones agropecuarias. (División Servicios Sierra Maestra y Sucursal Artemisa)"
+
+    comercializar:
+      - "Aplicaciones informáticas. (Aster S.A.)"
+      - "Productos, artículos, mercancías y bienes partes y piezas de vehículos, que resulten ociosos de merma comercializable según nomenclatura aprobada por el MINCEX, se exceptuarán los vehículos de uso administrativos que forman parte del patrimonio de la entidad. (División de Transporte Automotor)"
+      - "Uniforme y módulos de vestuario en correspondencia con la aprobación requerida y según nomenclatura del MINCIN, así como otros productos que se elaboren con tejido. (División Contex)"
+      - "Partes y piezas de repuesto de vehículos, según Nomenclatura aprobada por el MINCIN. (División de Transporte Automotor)"
+      - "Productos alimenticios elaborados por la Corporación Cimex, S.A., según nomenclatura aprobada. (todas las Sucursales)"
+
+    actuar:
+      - "Como comisionista en la comercialización de vehículos, en los casos que resulte necesario, ejecutar las prendas derivadas del otorgamiento de créditos bancarios. (División Transporte Automotor)"
+
+    otras:
+      - "Ejercer todos los controles y responsabilidades que genere la actividad inversionista. (Inversiones CIMEX S.A.)"
+
+  estructura_empresarial:
+    divisiones:
+      - nombre: "Tecnológica"
+        tipo: "empresa nacional"
+        ubicacion: "Edificio Sierra Maestra, Playa, Piso 7mo"
+        telefono: ["2039815", "2039655"]
+      - nombre: "Transporte Automotor"
+        tipo: "empresa nacional"
+        ubicacion: "Edificio Sierra Maestra, Playa, Piso 5to"
+        telefono: ["2039815", "2039574"]
+      - nombre: "Contex"
+        ubicacion: "Calle 22 #4117 esq. a 47, Reparto Kolhy, Miramar, Municipio Playa"
+      - nombre: "Publicitaria Imágenes"
+        ubicacion: "Calle 222 s/n esquina 9na, Reparto Siboney, Playa"
+      - nombre: "Servicios Sierra Maestra"
+        ubicacion: "Edificio Sierra Maestra, Piso 3ero"
+        telefono: ["2039815"]
+      - nombre: "Coral Negro"
+        ubicacion: "Edificio Almendares, 5B esq. 6, Playa"
+        telefono: ["204-7705", "204-7707"]
+      - nombre: "Comercio Electrónico"
+        # sin dirección adicional en el documento
+
+    sucursales:
+      - nombre: "Pinar del Río"
+        direccion: "Gerardo Medina No 633 e/ Álvaro Barba y Carretera a Viñales"
+      - nombre: "Artemisa"
+        direccion: null
+      - nombre: "Mayabeque"
+        direccion: null
+      - nombre: "Habana Oeste"
+        direccion: "Calle 214 No 1905 e/ 19 y 19 A, Reparto Atabey"
+      - nombre: "Habana Este"
+        direccion: "Calle 24 esq 45, Reparto Almendrales, Playa"
+      - nombre: "Plaza Carlos III"
+        direccion: "Ave Salvador Allende e/ Retiro y Árbol seco"
+      - nombre: "Gastronomía"
+        direccion: "Calle 60 No 518 e/ 10 y 12, Playa"
+      - nombre: "Matanzas"
+        direccion: "Calle Carretera Varadero - Cárdenas"
+      - nombre: "Cienfuegos"
+        direccion: "Calle 29 No 5218 e/ 52 y 54"
+      - nombre: "Villa Clara"
+        direccion: "Carretera Central Km 298"
+      - nombre: "Sancti Spiritus"
+        direccion: "Avenida de los mártires esq. Circunvalarte, Los Olivos"
+      - nombre: "Ciego de Ávila"
+        direccion: "Honorato del Castillo No 12 e/ Independencia y Joaquín Agüero"
+      - nombre: "Camagüey"
+        direccion: "Carretera Central Este No 464 e/ Monte Agudo y Ojo de Agua"
+      - nombre: "Las Tunas"
+        direccion: "Julián Santana 175 e/ Colón y Joaquín Agüero"
+      - nombre: "Holguín"
+        direccion: "Calle C 6 No 10 e/ 9 y 11, Ciudad Jardín"
+      - nombre: "Granma"
+        direccion: "Ave Frank País e/ Ave 2da y Figueredo, Reparto Jesús Menéndez"
+      - nombre: "Santiago de Cuba"
+        direccion: "Calle 3 No 255 e/ 10 y 12, Reparto Vista Alegre"
+      - nombre: "Guantánamo"
+        direccion: "Maceo No 2 esq. Oriente"
+      - nombre: "Centro Comercial Cuatro Caminos"
+        direccion: "Cristina e/ Matadero y Arroyo"
+      - nombre: "Centro Histórico"
+        direccion: "Calle Oficios No. 52, Municipio Habana Vieja"
+
+    subsidiarias:
+      - nombre: "Melfi Marine S.A."
+        ubicacion: "1 y 0, Miramar"
+      - nombre: "Fincimex S.A."
+        ubicacion: "Calle 8 #319 entre 5ta y 3ra, Playa"
+      - nombre: "Zelcom S.A."
+        ubicacion: "Carretera Berroa Km. 1½, Habana del Este, La Habana"
+      - nombre: "Inversiones Cimex S.A."
+        ubicacion: "Calle 1ra / 0 y 2, Edificio Sierra Maestra, 4to piso"
+      - nombre: "Inmobiliaria Cimex S.A."
+        ubicacion: "7 e/ 14 y 16, Playa"
+      - nombre: "Adesa S.A."
+        ubicacion: "Calle Anillo del Puerto entre Pote y Línea del Ferrocarril, Regla"
+      - nombre: "Audita S.A."
+        ubicacion: "Calle 94 entre 3ra y 3ra A, No. 309, Miramar, Playa"
+      - nombre: "Ecuse S.A."
+        ubicacion: "Santa Fe, Playa"
+      - nombre: "Residencial Tarara S.A."
+        ubicacion: "Vía Blanca, km. 17, Ciudad Tarará, Municipio La Habana del Este, La Habana"
+      - nombre: "CIMEX - Mariel S.A."
+        ubicacion: "Zona de Desarrollo Mariel"
+      - nombre: "ASTER S.A."
+        ubicacion: "Calle 1ra / 0 y 2, Edificio Sierra Maestra, Playa, 8vo piso"
+
+    mipymes:
+      - nombre: "Cubapack SRL"
+        ubicacion: "Calle 22 #4115 entre 41 y 47, Reparto Kolhy, Miramar, Municipio Playa, La Habana"
+
+    filiales:
+      - nombre: "Restaurantes Centro Histórico S.A."
