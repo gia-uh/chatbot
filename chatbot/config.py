@@ -14,6 +14,11 @@ class LLMConfig(BaseModel):
     model: str
     api_key: str
     base_url: str
+    
+class EmbeddingConfig(BaseModel):
+    model: str
+    api_key: str
+    base_url: str
 
 
 class PromptsConfig(BaseModel):
@@ -27,6 +32,7 @@ class ConversationConfig(BaseModel):
 class Config(BaseModel):
     telegram: TelegramConfig
     llm: LLMConfig
+    embedding: EmbeddingConfig
     conversation: ConversationConfig
     prompts: PromptsConfig
     db: str = "bot.db"

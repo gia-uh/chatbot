@@ -9,6 +9,13 @@ llm:
   # Put a custom token here directly or a key in your .env
   api_key: ${OPENROUTER_TOKEN}
 
+embedding:
+  # Change base URL and model name as necessary
+  base_url: http://127.0.0.1:1234
+  model: text-embedding-nomic-embed-text-v1.5
+  # Put a custom token here directly or a key in your .env
+  api_key: ${EMBEDDING_TOKEN}
+
 conversation:
   # How many messages to pass as context
   history: 5

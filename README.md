@@ -36,6 +36,7 @@ The project uses a secure configuration system that separates secrets from logic
     ```env
     TELEGRAM_TOKEN=your_telegram_bot_token
     OPENROUTER_TOKEN=your_llm_provider_key
+    EMBEDDING_TOKEN=your_embedding_provider_key
     ```
 3.  **Review `config.yaml`**:
     Ensure the `token` and `api_key` fields reference your environment variables (e.g., `${TELEGRAM_TOKEN}`). You can also adjust the LLM model and system prompt here.
